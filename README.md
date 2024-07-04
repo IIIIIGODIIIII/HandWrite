@@ -15,12 +15,21 @@ HandWrite is a project that leverages the Mediapipe library to detect and track 
 2. Navigate to the project directory:
 
    ```bash
-   cd HandWrite
-   
+   cd HandWrite 
 3. Install the required dependencies:
 
    ```bash
    pip install opencv-python mediapipe
 
 ## Usage
-Run the Hand Tracking Drawing.py to start the hand tracking and drawing application.
+1. Static Image Processing - To process static images, place your images in the IMAGE_FILES list in the script, then run:
+
+   ```bash
+   python Hand Tracking Drawing.py
+   
+2. Real-Time Webcam Input - For real-time hand tracking using your webcam, simply run:
+
+   ```bash
+   python Hand Tracking Drawing.py
+   
+Press Esc to exit the webcam view.
