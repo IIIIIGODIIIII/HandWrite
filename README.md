@@ -1,5 +1,11 @@
 # HandWrite
-HandWrite is a Python project focused on hand tracking and drawing. It utilizes computer vision techniques to detect hand movements and translate them into drawings on a screen.
+HandWrite is a project that leverages the Mediapipe library to detect and track hand movements in real-time. This project can process both static images and live webcam input to annotate hand landmarks and visualize hand gestures.
+
+## Features
+1. Static Image Processing: Detect and annotate hand landmarks on static images.
+2. Real-Time Webcam Input: Track and visualize hand movements using a webcam.
+3. Hand Landmark Drawing: Draw connections between hand landmarks for better visualization.
+4. Hand World Landmarks Plotting: Visualize 3D hand landmarks.
 
 ## Installation
 1. Clone the repository:
